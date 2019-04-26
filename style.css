@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+/* div {
+    border: 1px solid red;
+} */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+.column {
+    width: 49%;
+    margin: 10px 0 20px 0;
+    border: 1px solid lightgrey;
+}
+
+.empty-column {
+    background-color: lightcoral;
+    width: 49%;
+    margin: 10px 0 20px 0;
+    border: 1px solid lightcoral;
+
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.title {
+    width: 100%;
+    font-size: 14px;
+    font-family: Verdana;
+}
+.image-left {
+    width: 100%;
+}
+.image-right {
+    width: 100%;
+
+}
